@@ -60,7 +60,8 @@ var getJSON = function(url, options, callback) {
 			callback(err, null, null); 
 			return;
 		}
-		callback(null, response, JSON.parse(body))
+// 		callback(null, response, JSON.parse(body))
+		callback(null, response, body)
 	});
 };
 exports.getJSON = getJSON;
