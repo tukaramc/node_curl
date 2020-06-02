@@ -1,5 +1,5 @@
 {
- "name": "curl",
+ "name": "node_curl",
  "version": "0.1.4",
  "description": "client url library, high level request functions",
  "tags": ["request","util","http"],
